@@ -1,3 +1,5 @@
+# add /dashboard.html to acces the dashboard
+
 # Modern Authentication & Dashboard System
 
 A beautiful, responsive authentication system with a modern dashboard built with HTML, CSS, and JavaScript. Features dark theme with red accents, glassmorphism effects, and smooth animations.

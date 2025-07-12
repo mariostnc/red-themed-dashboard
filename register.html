@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Modern Auth</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Background blur elements -->
+        <div class="blur-element blur-1"></div>
+        <div class="blur-element blur-2"></div>
+        <div class="blur-element blur-3"></div>
+        
+        <!-- Main content -->
+        <div class="auth-container">
+            <div class="auth-card">
+                <div class="card-header">
+                    <h1>Create Account</h1>
+                    <p>Join us today</p>
+                </div>
+                
+                <form class="auth-form" id="registerForm">
+                    <div class="form-group">
+                        <div class="input-wrapper">
+                            <input type="text" id="fullName" placeholder="Full name" required>
+                            <div class="input-focus-border"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <div class="input-wrapper">
+                            <input type="email" id="email" placeholder="Email address" required>
+                            <div class="input-focus-border"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <div class="input-wrapper">
+                            <input type="password" id="password" placeholder="Password" required>
+                            <div class="input-focus-border"></div>
+                            <button type="button" class="toggle-password">
+                                <i class="fas fa-eye"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <div class="input-wrapper">
+                            <input type="password" id="confirmPassword" placeholder="Confirm password" required>
+                            <div class="input-focus-border"></div>
+                            <button type="button" class="toggle-password">
+                                <i class="fas fa-eye"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">
+                        <span>Create Account</span>
+                    </button>
+                </form>
+                
+                <div class="auth-footer">
+                    <p>Already have an account? <a href="index.html" class="link-btn">Sign in</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html> 
